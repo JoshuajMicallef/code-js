@@ -23,14 +23,14 @@ class AssetsLoader {
 
     loadAllImages() {
         const imagesToLoad = {
-            'playerIdle': 'assets/players/player-1/Idle.png/',
-            'playerWalkLeft': 'assets/players/player-1/Walk-Left.png/',
-            'playerWalkRight': 'assets/players/player-1/Walk-Right.png/',
-            'playerDead': 'assets/players/player-1/Dead.png/',
-            'playerHurt': 'assets/players/player-1/Hurt.png/',
-            'playerAttackLeft': 'assets/players/player-1/Attack-Left.png/',
-            'playerAttackRight': 'assets/players/player-1/Attack-Right.png/',
-            'playerShield': 'assets/players/player-1/Shield.png/',
+            'playerIdle': 'assets/players/player-1/Idle.png',
+            'playerWalkLeft': 'assets/players/player-1/Walk-Left.png',
+            'playerWalkRight': 'assets/players/player-1/Walk-Right.png',
+            'playerDead': 'assets/players/player-1/Dead.png',
+            'playerHurt': 'assets/players/player-1/Hurt.png',
+            'playerAttackLeft': 'assets/players/player-1/Attack-Left.png',
+            'playerAttackRight': 'assets/players/player-1/Attack-Right.png',
+            'playerShield': 'assets/players/player-1/Shield.png',
 
             'level1background': 'assets/level-art/level-1/bg.png',
             'level1enemy1attackleft': 'assets/level-art/level-1/enemy-1/Attack-Left.png',
