@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+@media (min-width: 992px) {
+    .container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    canvas {
+        width: 80vw; /* Adjust as needed */
+        height: 75vh; /* Adjust as needed */
+        background-color: #000;
+        border: 2px solid #333;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        position: fixed;
+        top: 20%;
+        right: 15%;
+    }
+
+    .menu button {
+        margin: 5px;
+    }
+
+    .unsupported {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        display: none;
+    }
+
+    .unsupported {
+        display: flex;
+        margin: 72px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+
+
